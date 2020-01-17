@@ -8,6 +8,7 @@ public class FglapiApplication {
 
 	public static void main(final String[] args) {
 		SpringApplication.run(FglapiApplication.class, args);
+		DatabaseController db = new DatabaseController();
 	}
 
 }
